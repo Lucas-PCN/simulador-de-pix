@@ -44,7 +44,7 @@ public class ProcessadorDePix {
           throw new ErroChaveNaoEncontrada();
         default:
           throw new ErroInterno();
-        }
+      }
     } finally {
       connection.close();
     }
