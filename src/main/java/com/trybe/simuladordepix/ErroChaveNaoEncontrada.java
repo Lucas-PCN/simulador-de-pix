@@ -3,6 +3,6 @@ package com.trybe.simuladordepix;
 public class ErroChaveNaoEncontrada extends ErroDePix {
 
   public ErroChaveNaoEncontrada() {
-    super(mensagens.CHAVE_NAO_ENCONTRADA);
+    super(Mensagens.CHAVE_NAO_ENCONTRADA);
   }
 }
